@@ -30,7 +30,7 @@ namespace IdentityServer
                 {
                     ClientId = "angular_spa",
                     ClientName = "Angular Client",
-                    AllowedGrantTypes = GrantTypes.Implicit,
+                    AllowedGrantTypes = GrantTypes.Code,
                     RequirePkce = true,
                     RequireClientSecret = false,
                     AllowedScopes = new List<string> {"openid", "profile", "api1"},
